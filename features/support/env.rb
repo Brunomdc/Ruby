@@ -4,6 +4,8 @@ require 'pry'
  require 'capybara/cucumber'
  require 'capybara/poltergeist'
 
+EL = YAML.load_file('data/elements.yml')
+
  if ENV['chrome']
    Capybara.default_driver = :chrome
    Capybara.register_driver :chrome do |app|
@@ -31,4 +33,3 @@ require 'pry'
  else
    Capybara.default_driver = :selenium
  end
- 

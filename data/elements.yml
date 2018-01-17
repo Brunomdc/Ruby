@@ -1,0 +1,4 @@
+btnEntrar: a[id='uh-signin']
+btnContinuar: button[id='reg-submit-button']
+lnkCadastre_se: a[id='createacc']
+btnEnviaMensagem: button[name='sendCode']
